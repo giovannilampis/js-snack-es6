@@ -31,4 +31,16 @@ const bicycles = [
         name: Hummingbird,
         weight: 14,
     }
-]
+];
+
+// Find out which bike has the lowest weight
+
+let lightestBicycle = bicycles[0];
+
+bicycles.forEach( (bike) => {
+    if (bike.weight < lightestBicycle.weight) {
+        lightestBicycle = bike;
+    }
+});
+
+console.log(lightestBicycle);
