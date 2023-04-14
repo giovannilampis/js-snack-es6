@@ -61,3 +61,21 @@ const soccerTeams = [
         fouls: 0,
     }
 ];
+
+console.log(soccerTeams);
+
+// use forEach method on the array of objects ...
+
+soccerTeams.forEach(team => {
+
+    // ... to randomly create ranking points ... 
+
+    team.rankingPoints = Math.floor(Math.random() * 81);
+
+    // ... and number of fouls
+
+    team.fouls = Math.floor(Math.random() * 301);
+
+});
+
+console.log(soccerTeams);
