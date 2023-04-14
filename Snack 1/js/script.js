@@ -44,3 +44,13 @@ bicycles.forEach( (bike) => {
 });
 
 console.log(lightestBicycle);
+
+// print in HTML the bike with the lowest weight using destructuring and template literal
+
+const { name, weight } = lightestBicycle;
+
+console.log( `The lightest bicycle is the ${name} model, as it weights ${weight} Kg 🚴‍♀️` );
+
+const winner = document.getElementById("winner");
+
+winner.innerHTML = `The lightest bicycle is the ${name} model, as it weights ${weight} Kg 🚴‍♀️`;
