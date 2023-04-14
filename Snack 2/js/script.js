@@ -79,3 +79,20 @@ soccerTeams.forEach(team => {
 });
 
 console.log(soccerTeams);
+
+// using destructuring and a for cycle, I create a new array ... 
+
+const arrayNamesFouls = [];
+
+for ( let i = 0; i < soccerTeams.length; i++ ) {
+
+    // ... whose objects contain only names and numbers of fouls
+
+    const { name, fouls } = soccerTeams[i];
+
+    arrayNamesFouls.push( {name, fouls} );
+};
+
+// I print arrayNamesFouls in console
+
+console.log(arrayNamesFouls);
