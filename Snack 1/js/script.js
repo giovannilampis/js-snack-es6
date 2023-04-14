@@ -4,31 +4,31 @@
 
 const bicycles = [
     {
-        name: Dahon,
+        name: 'Dahon',
         weight: 13,
     }, {
-        name: Alex-Moulton,
+        name: 'Alex-Moulton',
         weight: 10,
     }, {
-        name: Bromptonn,
+        name: 'Bromptonn',
         weight: 10.5,
     }, {
-        name: Wilier,
+        name: 'Wilier',
         weight: 12,
     }, {
-        name: Birdy,
+        name: 'Birdy',
         weight: 9.5,
     }, {
-        name: Dahon,
-        weight: 13,
+        name: 'Dahon',
+        weight: '13',
     }, {
-        name: Allen-Sports-Ultra-X,
+        name: 'Allen-Sports-Ultra-X',
         weight: 9.9,
     }, {
-        name: Helix,
+        name: 'Helix',
         weight: 11.5,
     }, {
-        name: Hummingbird,
+        name: 'Hummingbird',
         weight: 14,
     }
 ];
