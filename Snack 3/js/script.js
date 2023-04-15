@@ -8,4 +8,18 @@ function Snack3(startingIndex, finalIndex, arrayNames) {
 
     let newArray = [];
 
+    // use the foreach method to make the check inside the given array
+
+    arrayNames.forEach( (element, index) => {
+
+        if(index >= startingIndex && index < finalIndex) {
+
+            newArray.push(element);
+
+        }
+        
+    });
+
+
+
 }
