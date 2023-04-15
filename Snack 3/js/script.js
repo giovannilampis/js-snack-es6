@@ -12,7 +12,7 @@ function Snack3(startingIndex, finalIndex, arrayNames) {
 
     arrayNames.forEach( (element, index) => {
 
-        if(index >= startingIndex && index < finalIndex) {
+        if(index > startingIndex && index < finalIndex) {
 
             newArray.push(element);
 
@@ -24,4 +24,9 @@ function Snack3(startingIndex, finalIndex, arrayNames) {
 
     return newArray;
 
-}
+};
+
+// call the function by inserting parameters
+
+Snack3(2, 6, ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'l', 'm', 'n']);
+
