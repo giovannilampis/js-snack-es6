@@ -4,6 +4,8 @@
 
 function Snack3(startingIndex, finalIndex, arrayNames) {
 
- 
+    // a new array wiil contain the elements copied from the given array
+
+    let newArray = [];
 
 }
