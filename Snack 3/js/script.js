@@ -20,6 +20,8 @@ function Snack3(startingIndex, finalIndex, arrayNames) {
         
     });
 
+    console.log(newArray);
 
+    return newArray;
 
 }
